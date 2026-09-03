@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(204, 236, 240);
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -25,6 +25,7 @@ main {
   border-radius: 5px;
   padding: 10px;
   display: flex;
+  background-color: white;
 }
 
 img.about-image {
@@ -98,17 +99,18 @@ img.about-image {
   padding: 20px;
   justify-items: center;
   align-items: center;
+  background-color: white;
 }
 
 .instagram {
+  color: inherit;
+  color: white;
   text-align: center;
   background-color: rgb(254, 0, 129);
-  border: 2px solid rgb(254, 0, 129);
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 5px;
   padding: 10px;
   max-width: fit-content;
-  color: white;
-  text-decoration: none;
 }
 
 .project {
@@ -116,8 +118,21 @@ img.about-image {
   padding: 20px;
   max-width: 1000px;
   max-height: 600px;
+  background-color: white;
 }
 
 .project-details {
   justify-items: center;
+}
+
+.section-title {
+  color: blue;
+}
+
+.resume {
+  border: 3px solid black;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 100px;
 }
