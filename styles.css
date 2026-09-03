@@ -35,7 +35,7 @@ img.about-image {
 
 .about-text {
   padding-left: 10px;
-  position: relative;;
+  align-content: center;
 }
 /* CSS for navigation bar */
 
@@ -88,4 +88,36 @@ img.about-image {
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+}
+
+.socials {
+  display: grid;
+  border: 1px solid rgb(162, 162, 252);
+  border-radius: 5px;
+  margin-bottom: 200px;
+  padding: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.instagram {
+  text-align: center;
+  background-color: rgb(254, 0, 129);
+  border: 2px solid rgb(254, 0, 129);
+  border-radius: 5px;
+  padding: 10px;
+  max-width: fit-content;
+  color: white;
+  text-decoration: none;
+}
+
+.project {
+  border: 3px solid black;
+  padding: 20px;
+  max-width: 1000px;
+  max-height: 600px;
+}
+
+.project-details {
+  justify-items: center;
 }
