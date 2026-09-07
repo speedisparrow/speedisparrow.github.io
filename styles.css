@@ -135,5 +135,7 @@ img.about-image {
   background-color: white;
   padding: 20px;
   border-radius: 5px;
-  margin: 100px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  width: 700px;
 }
