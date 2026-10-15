@@ -1,14 +1,42 @@
 html {
   height: 100%;
 }
-
+.redirect[open] {
+  display: flex;
+}
+.redirect {
+  flex-direction: column;
+  border: 3px solid black;
+  align-self: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+.redirect::backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px); 
+}
+.redirect a {
+  text-decoration: none;
+  text-box: normal;
+  background-color: green;
+  color: white;
+  padding: 10px 20px 
+}
+.redirect button {
+  margin: 10px;
+  color: white;
+  background-color: red;
+}
 body {
   background-color: rgb(204, 236, 240);
   position: relative;
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 main {
